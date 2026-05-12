@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        body{
+            background-color:aqua;
+            margin:0px;
+            padding:0px;
+        }
+        article{
+            box-sizing:border-box;
+            margin:200px;
+            padding:100px;
+            border:2px soild black;
+            color:black;
+            background-color:blue;
+        }
+        article > h1{
+            border:2px solid black
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>This is Box Model in CSS</h1>
+    </article>
+</body>
+</html>
